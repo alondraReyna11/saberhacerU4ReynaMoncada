@@ -62,7 +62,12 @@ Vamos a nuestra ruta configurada en el Docker file y vemos nuestro login
 Ahora subimos a Dockerhub 
 ![image](https://github.com/alondraReyna11/saberhacerU4ReynaMoncada/assets/126124032/a3a9f995-a85b-4894-9e45-b27056a257ba)
 
-7
+Ingresamos son el comando Docker login, desde el cmd
+
+
+
+
+![image](https://github.com/alondraReyna11/saberhacerU4ReynaMoncada/assets/126124032/1f6817be-dc9e-497e-9aeb-f3c111b2b204)
 
 
 
