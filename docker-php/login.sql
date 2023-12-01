@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `usuarios`
 --
 
-CREATE TABLE `admin` (
+CREATE TABLE `usuarios` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL
@@ -37,7 +37,7 @@ CREATE TABLE `admin` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `admin` (`id`, `username`, `password`) VALUES
+INSERT INTO `usuarios` (`id`, `username`, `password`) VALUES
 (1, 'usuario1', 'contrasena1'),
 (2, 'usuario2', 'contrasena2');
 
@@ -48,7 +48,7 @@ INSERT INTO `admin` (`id`, `username`, `password`) VALUES
 --
 -- Indices de la tabla `usuarios`
 --
-ALTER TABLE `admin`
+ALTER TABLE `usuarios`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -58,7 +58,7 @@ ALTER TABLE `admin`
 --
 -- AUTO_INCREMENT de la tabla `usuarios`
 --
-ALTER TABLE `admim`
+ALTER TABLE `usuarios`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
