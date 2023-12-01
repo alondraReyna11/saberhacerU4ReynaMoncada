@@ -1,7 +1,7 @@
 <!DOCTYPE htmL>
 <html lang="es">
 <head>
-  <title>Login Form</title>
+  <title>Login</title>
   <style>
     body {
       font-family: sans-serif;
@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Consulta para verificar la autenticación
-    $query = "SELECT * FROM usuarios WHERE username='$username' AND password='$password'";
+    $query = "SELECT * FROM admin WHERE username='$username' AND password='$password'";
     $result = $conn->query($query);
 
     if ($result->num_rows > 0) {
